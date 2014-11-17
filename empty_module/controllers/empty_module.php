@@ -71,7 +71,7 @@ class empty_module extends MX_Controller {
 	| of up to four parameters that may be specified.
 	|
 	| After loading the library you call it like:
-    | $this->template-load($data, $param1, $param2, $param3);
+    | $this->template->load($data, $param1, $param2, $param3);
 	|
     | $param1 : The name of the template view files to be used. If NULL, then 'default' is used.
     | $param2 : The desired module view to be used as the content for the template view. Specified
