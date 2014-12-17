@@ -9,19 +9,21 @@ To use:
 
 Download the files.
 
-Place the "templte.php" libary file in your Code Igniter application/libary directory.
+Place the "template.php" libary file in your Code Igniter application/libary directory.
 
 Place the "templates" folder in the application/modules directory of your HMVC enabled Code Igniter installation.
 
 Place the "empty_module" folder also in the application/modules directory as a notepad module from which to start building your modules.
 
 
-The libarary can be loaded as any normal CI libary, and is best to be autoloaded for your scripts by including the libary in autoload.php
+The library can be loaded as any normal CI libary, and is best to be autoloaded for your scripts by including the libary in autoload.php
 
 
-After the installation of the Modular Templates library you will be able to load view data in the template views by using:
+After the installation of the HMVC Templates library you will be able to load view data in the template views by using:
 
-$this->template->load($data, $param1, $param2, $param3);
+  $this->template->load($data, $param1, $param2, $param3);
+
+in your controller modules where you wish to load a view.
 
 $param1 : The name of the template view files to be used. If NULL, then 'default' is used.
 
