@@ -21,7 +21,7 @@ The library can be loaded as any normal CI libary, and is best to be autoloaded 
 
 After the installation of the HMVC Templates library you will be able to load view data in the template views by using:
 
-  $this->template->load($data, $param1, $param2, $param3);
+`$this->template->load($data, $param1, $param2, $param3);`
 
 in your controller modules where you wish to load a view.
 
