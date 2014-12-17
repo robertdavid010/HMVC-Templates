@@ -9,7 +9,7 @@ To use:
 
 Download the files.
 
-Plase the "templte.php" libary file in your Code Igniter application/libary directory.
+Place the "templte.php" libary file in your Code Igniter application/libary directory.
 
 Place the "templates" folder in the application/modules directory of your HMVC enabled Code Igniter installation.
 
